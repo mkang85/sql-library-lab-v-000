@@ -33,7 +33,7 @@ def select_series_title_with_most_human_characters
   FROM series
   JOIN characters
   ON series.id = characters.series_id
-  WHERE MAX(COUNT(species));
+  WHERE COUNT(species) DESC LIMIT 1;
   "
 end
 
