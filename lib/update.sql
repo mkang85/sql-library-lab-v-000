@@ -1,1 +1,1 @@
-INSERT INTO species FROM characters WHERE id=(SELECT MAX(id) VALUES 'martian';
+INSERT INTO characters.species WHERE id=(SELECT MAX(id) VALUES 'martian';
