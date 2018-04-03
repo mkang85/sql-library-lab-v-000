@@ -1,1 +1,1 @@
-INSERT INTO characters.species VALUES ('martian') WHERE id= 8;
+INSERT INTO characters.species WHERE id= 8 VALUES ('martian');
